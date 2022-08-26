@@ -1,0 +1,82 @@
+body {
+  font-family: 'Oswald','impact', sans-serif;
+  background: gray;
+}
+
+.container {
+  width: 100%;
+  /* background: #473026; */
+  background: rgba(240,240,240,0.8);
+  margin-top: 40px;
+  /* border-top-style: solid; */
+  /* border-color: gray; */
+}
+
+.alex {
+  width: 40%;
+  padding: 20px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 20px 20px 0 0;
+  margin: 0;
+  /* display: inline-block;
+  position: absolute; */
+  top: 0;
+  font-size: 5rem;
+
+}
+
+span {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+  display: block;
+  color: gray;
+  /* position: absolute; */
+  top: 92px;
+
+}
+
+p {
+  display: inline-block;
+  width: 60%;
+  margin-top: 40px;
+  line-height: 1.20
+}
+
+.side {
+  padding-top:20px;
+  display: inline-block;
+  width: 40%;
+  position: absolute;
+  top: 0;
+  color: #414042;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline-flex;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: gray;
+}
+
+.fi {
+  width: 7%;
+  margin: 5px;
+}
