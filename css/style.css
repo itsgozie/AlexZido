@@ -1,13 +1,13 @@
 body {
   font-family: 'Oswald','impact', sans-serif;
-  background: gray;
+
 }
 
 .container {
   width: 100%;
   /* background: #473026; */
   background: rgba(240,240,240,0.8);
-  margin-top: 40px;
+
   /* border-top-style: solid; */
   /* border-color: gray; */
 }
@@ -49,7 +49,6 @@ p {
 }
 
 .side {
-  padding-top:20px;
   display: inline-block;
   width: 40%;
   position: absolute;
