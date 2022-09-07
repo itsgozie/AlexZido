@@ -18,6 +18,7 @@ body {
   padding-bottom: 10px;
   border-radius: 5px;
   box-sizing: border-box;
+  float: left;
 }
 
 h1 {
@@ -49,11 +50,12 @@ p {
 }
 
 .side {
-  display: inline-block;
+  /* display: inline-block; */
   width: 40%;
-  position: absolute;
-  top: 0;
+  /* position: absolute; */
+  /* top: 0; */
   color: #414042;
+  float: left;
 }
 
 ul {
@@ -78,4 +80,27 @@ a:hover {
 .fi {
   width: 7%;
   margin: 5px;
+}
+
+/* iframe {
+  background: black;
+} */
+
+
+@media screen and (max-width:414px) {
+  .alex {
+    width: 100%;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .side {
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  p {
+    width: 95%;
+    margin: 2%;
+  }
 }
